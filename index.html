@@ -348,11 +348,16 @@
                     </div>
                 </div>
                 
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                <form class="contact-form" action="https://formsubmit.co/el/bozigi/jakku.bhargavteja@gmail.com" method="POST">
+                    <input type="text" name = "Name" placeholder="Your Name" required>
+                    <input type="email" name = "email" placeholder="Your Email" required>
+                    <textarea name = "message" placeholder="Your Message" rows="5" required></textarea>
                     <button type="submit" class="btn btn-primary">Send Message</button>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="New message from your portfolio website!">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://bhargavjakku.github.io/Career-Portfolio/thanks.html">
                 </form>
             </div>
         </div>
